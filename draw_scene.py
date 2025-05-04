@@ -124,6 +124,12 @@ def main():
     
     # 完成绘图
     turtle.exitonclick()
+    # 隐藏海龟
+    turtle.hideturtle()
+    # 等待用户关闭窗口
+    turtle.done()
+    # 绘制星星
+    draw_stars()
 
 # 运行程序
 if __name__ == "__main__":
